@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Factor de Conversión",
+  "name_for_model": "factorConversion",
+  "description_for_human": "Consulta factores de conversión históricos almacenados en Google Sheets.",
+  "description_for_model": "Este plugin permite consultar factores de conversión históricos por fecha desde una hoja de Google Sheets.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://tu-dominio.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://tu-dominio.com/logo.png",
+  "contact_email": "tu@email.com",
+  "legal_info_url": "https://tu-dominio.com/legal"
+}

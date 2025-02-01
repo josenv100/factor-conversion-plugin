@@ -1,0 +1,33 @@
+openapi: 3.0.1
+info:
+  title: Factor de Conversión API
+  description: API para consultar factores de conversión históricos
+  version: 'v1'
+servers:
+  - url: https://script.google.com/macros/s/TU-ID-DE-DEPLOYMENT/exec
+paths:
+  /:
+    get:
+      operationId: getFactor
+      summary: Obtiene el factor de conversión para una fecha específica
+      parameters:
+        - in: query
+          name: fecha
+          schema:
+            type: string
+          required: true
+          description: Fecha en formato YYYY-MM-DD
+      responses:
+        '200':
+          description: Factor de conversión encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  fecha:
+                    type: string
+                  factor:
+                    type: number
+                  estado:
+                    type: string
