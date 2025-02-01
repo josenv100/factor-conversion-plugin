@@ -4,7 +4,7 @@ info:
   description: API para consultar factores de conversión históricos
   version: 'v1'
 servers:
-  - url: https://script.google.com/macros/s/TU-ID-DE-DEPLOYMENT/exec
+  - url: https://script.google.com/macros/s/AKfycbya-xqCL_Emlc4CN-9cMhg2sBF-q6fx5l2PHWp_tw8YxUXGPIP2GDw2ICbybq2imaTvOQ/exec
 paths:
   /:
     get:
