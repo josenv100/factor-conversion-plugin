@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://tu-dominio.com/.well-known/openapi.yaml"
+    "url": "https://josenv100.github.io/factor-conversion-plugin/.well-known/openapi.yaml"
   },
-  "logo_url": "https://tu-dominio.com/logo.png",
+  "logo_url": "https://josenv100.github.io/factor-conversion-plugin/logo.png",
   "contact_email": "tu@email.com",
-  "legal_info_url": "https://tu-dominio.com/legal"
+  "legal_info_url": "https://josenv100.github.io/factor-conversion-plugin/legal"
 }
